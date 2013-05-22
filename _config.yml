@@ -1,4 +1,4 @@
-# This is the default format. 
+﻿# This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:year/:month/:day/:title 
 
@@ -10,7 +10,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Hnrainll Sunplusedu
-tagline: Site Tagline
+tagline: Hnrainll的个人博客
 author :
   name : hnrainll
   email : hnrain1004@gmail.com
