@@ -6,7 +6,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: false
 markdown: rdiscount
-paginate: 6
+paginate: 8
 description_length: 200
 
 # Themes are encouraged to use these universal variables 
@@ -84,7 +84,8 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    #provider : disqus
+	provider : false
     disqus :
       short_name : jekyllbootstrap
     livefyre :

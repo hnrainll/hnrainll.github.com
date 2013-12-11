@@ -8,6 +8,7 @@ group: navigation
 
 ### 关于我
 
+Less is more.
 
 
 
