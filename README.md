@@ -1,14 +1,10 @@
-# Jekyll-Bootstrap
-
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
-
-## Usage
+# 感谢
+Jekyll-Bootstrap
 
 For all usage and documentation please see: <http://jekyllbootstrap.com>
 
-## Version
+模板使用：jolestar<https://github.com/jolestar>
 
 
-## License
 
-[MIT](http://opensource.org/licenses/MIT)
+
