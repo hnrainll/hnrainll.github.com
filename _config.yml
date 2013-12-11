@@ -10,10 +10,10 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : 文浩的技术博客 - SUNPLUSEDU
-tagline: Site Tagline
+tagline: "WENHAO's Blog"
 author :
   name : 文浩
-  email : hnrain1004@gmail.com
+  email : hnrain1004 at gmail.com
   github : hnrainll
   twitter : username
   feedburner : feedname
