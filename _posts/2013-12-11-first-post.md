@@ -21,13 +21,13 @@ tags:
 
 
 
-[注]
+最后感谢
 
- 1. Jekyll-Bootstrap
+ 1. Jekyll-Bootstrap 提供了一套快速建立博客的工具
 
     For all usage and documentation please see: <http://jekyllbootstrap.com>
 
- 2. 模板：[jolestar][1]
+ 2. 我的模板选用自：[jolestar][1] 非常感谢您！
 
 
 
