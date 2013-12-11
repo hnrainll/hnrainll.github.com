@@ -27,3 +27,29 @@ tags:
 成功还是失败，都带有悲剧性色彩。
 
        看完了小说，写了这么篇博客，终于深深喘一口气。最近一段时间的郁闷和彷徨也豁然消散。人有的时候感情不能过于敏感。
+
+### Twitter Search is Now 3x Faster
+
+In the spring of 2010, the search team at Twitter started to rewrite our search engine in order to serve our ever-growing traffic, improve the end-user latency and availability of our service, and enable rapid development of new search features. As part of the effort, we launched a new [real-time search engine][1], changing our back-end from MySQL to a real-time version of [Lucene][2]. Last week, we launched a replacement for our Ruby-on-Rails front-end: a Java server we call Blender. We are pleased to announce that this change has produced a 3x drop in search latencies and will enable us to rapidly iterate on search features in the coming months.
+
+## PERFORMANCE GAINS
+
+Twitter search is one of the most heavily-trafficked search engines in the world, serving over one billion queries per day. The week before we deployed Blender, the [#tsunami][3] in Japan contributed to a significant increase in query load and a related spike in search latencies. Following the launch of Blender, our 95th percentile latencies were reduced by 3x from 800ms to 250ms and CPU load on our front-end servers was cut in half. We now have the capacity to serve 10x the number of requests per machine. This means we can support the same number of requests with fewer servers, reducing our front-end service costs.
+
+[![][5]][5]
+
+[][5]*95th Percentile Search API Latencies Before and After Blender Launch*
+
+## TWITTER’S IMPROVED SEARCH ARCHITECTURE
+
+In order to understand the performance gains, you must first understand the inefficiencies of our former Ruby-on-Rails front-end servers. The front ends ran a fixed number of single-threaded rails worker processes, each of which did the following:
+
+ 
+
+*   parsed queries
+*   queried index servers synchronously
+*   aggregated and rendered results
+
+ 
+
+We have long known that the model of synchronous request processing uses our CPUs inefficiently. Over time, we had also accrued significant technical debt in our Ruby code base, making it hard to add features and improve the reliability of our search engine. Blender addresses these issues by:
