@@ -15,7 +15,7 @@ Less is more.
 
 * [@wenhao at weibo][1]
 * [wenhao at github][2]
-* [wenhao at Email][3]
+* Email:[hnrain1004@gmail.com][3]
 
 
 [1]: http://weibo.com/hnrain
