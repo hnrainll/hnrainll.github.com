@@ -13,10 +13,12 @@ Less is more.
 
 
 
-* [@wenhao at weibo][weibo]
-* [wenhao at github][github]
+* [@wenhao at weibo][1]
+* [wenhao at github][2]
+* [wenhao at Email][3]
 
 
-[weibo]: http://weibo.com/hnrain
-[github]: http://github.com/hnrainll
+[1]: http://weibo.com/hnrain
+[2]: http://github.com/hnrainll
+[3]: emailto:hnrain1004@gmail.com
 
