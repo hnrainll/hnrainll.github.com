@@ -20,5 +20,5 @@ Less is more.
 
 [1]: http://weibo.com/hnrain
 [2]: http://github.com/hnrainll
-[3]: emailto:hnrain1004@gmail.com
+[3]: mailto:hnrain1004@gmail.com
 
