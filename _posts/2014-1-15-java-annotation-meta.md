@@ -3,7 +3,7 @@ title: Java 注释类之常用元注解
 author: wenhao
 layout: post
 category : Java
-permalink:  /java-annonation-meta/
+permalink:  /java-annotation-meta/
 tags: 
   - interface
   - 注释类
