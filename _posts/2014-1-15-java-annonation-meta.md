@@ -5,7 +5,7 @@ layout: post
 category : Java
 permalink:  /java-annonation-meta/
 tags: 
-  - @interface
+  - interface
   - 注释类
 
 ---
