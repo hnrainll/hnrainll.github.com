@@ -13,14 +13,14 @@ tags:
 
 
 自定义Java注释类时，我们使用方式如下：
-```
+
 	@Retention(RetentionPolicy.RUNTIME)
 	@Target(ElementType.METHOD)
 	class @interface Author{
 		public String name();
 		public String company();
 	}
-```
+
 
 这次我们重点讨论修饰注解的注解，也就是我们说的元注解。
 
@@ -53,4 +53,3 @@ RetentionPolicy.RUNTIME 可以让你从JVM中读取Annotation注解的信息，�
 
 如@Target(ElementType.METHOD) 修饰的注解表示该注解只能用来修饰在方法上。  
 其他同理。
-> Written with [WENHAO](http://hnrainll.cnblogs.com/).
