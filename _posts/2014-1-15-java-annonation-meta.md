@@ -11,8 +11,7 @@ tags:
 ---
 
 
-Java 注释类之常用元注解
----
+
 自定义Java注释类时，我们使用方式如下：
 ```
 @Retention(RetentionPolicy.RUNTIME)
