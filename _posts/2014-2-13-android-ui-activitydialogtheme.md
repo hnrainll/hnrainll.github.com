@@ -19,16 +19,17 @@ tags:
 ---
 在Android的Dialog设计当中，我们可以通过系统自带的Dialog类实现相对简单的Dialog。但是对于相对UI布局特别复杂的Dialog，使用系统自带的实现就会比较困难。所以在Android当中，为Acitivity添加了一个Dialog的样式。让我们的Activity实现Dilaog的效果，这样在复杂的布局我们都能应付了。
 
+<!--more-->
 ---
 实现方式
 ---
 Activity实现Dialog样式的原理就是给在Manifest当中为Activity添加Theme属性。
 
 Manifest中对Activity注册如下设置：
-    <activity
+    `<activity
         android:name="com.example.activitydialog.DialogActivity"
         android:theme="@android:style/Theme.Holo.Light.Dialog">
-    </activity>
+    </activity>`
 
 重点语句是：`android:theme="@android:style/Theme.Holo.Light.Dialog"` 就是设置Activity为Holo风格白色的Dialog。
 
