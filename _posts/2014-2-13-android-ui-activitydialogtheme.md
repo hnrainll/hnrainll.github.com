@@ -26,10 +26,10 @@ tags:
 Activity实现Dialog样式的原理就是给在Manifest当中为Activity添加Theme属性。
 
 Manifest中对Activity注册如下设置：
-    `<activity
-        android:name="com.example.activitydialog.DialogActivity"
-        android:theme="@android:style/Theme.Holo.Light.Dialog">
-    </activity>`
+> <activity
+>	android:name="com.example.activitydialog.DialogActivity"
+>	android:theme="@android:style/Theme.Holo.Light.Dialog">
+> </activity>
 
 重点语句是：`android:theme="@android:style/Theme.Holo.Light.Dialog"` 就是设置Activity为Holo风格白色的Dialog。
 
