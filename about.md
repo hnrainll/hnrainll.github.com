@@ -15,10 +15,10 @@ Less is more.
 
 * [@wenhao at weibo][1]
 * [wenhao at github][2]
-* Email:[hnrain1004@gmail.com][3]
+* Email:[wenhao@leochin.com][3]
 
 
 [1]: http://weibo.com/hnrain
 [2]: http://github.com/hnrainll
-[3]: mailto:hnrain1004@gmail.com
+[3]: mailto:wenhao@leochin.com
 
