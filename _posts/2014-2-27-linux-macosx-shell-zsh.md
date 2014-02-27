@@ -83,4 +83,4 @@ source ~/.zshrc
 7. [powerline-fonts](https://github.com/Lokaltog/powerline-fonts)
 
 
-> Written with [StackEdit](https://stackedit.io/).
+> Written with [LeoChin](https://leochin.com/).
