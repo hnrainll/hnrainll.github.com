@@ -16,7 +16,7 @@ Android中AES256加密的实现
 
 AES加密是我们在工作中常用到一种加密方式，并且在java中也已经实现好了其相应的接口。
 但是Java自带的JDK默认最多实现128位及其以下的加密。如果使用java自带的api实现aes256将会报`java.security.InvalidKeyException:illegal Key Size`的错误。
-<!-- more -->
+<!--more-->
 
 ---
 解决方式：
