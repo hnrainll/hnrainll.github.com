@@ -101,4 +101,4 @@ source ~/.zshrc
 7. [powerline-fonts](https://github.com/Lokaltog/powerline-fonts)
 
 
-> Written with [LeoChin](https://leochin.com/).
+> Written with [LeoChin](http://leochin.com/).
