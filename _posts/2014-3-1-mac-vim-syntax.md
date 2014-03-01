@@ -1,4 +1,3 @@
-
 ---
 title: 让Mac中的VIM色彩斑斓
 author: wenhao
