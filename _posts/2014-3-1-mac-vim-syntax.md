@@ -18,7 +18,6 @@ tags:
 <!--more-->
 
 1. 将vim的环境文件copy到自己常用用户的主目录下
-
 > cp /usr/share/vim/vimrc ~/.vimrc
 
 2. 修改.vimrc文件归读写属性(非必需)
