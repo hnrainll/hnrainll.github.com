@@ -14,7 +14,7 @@
  2. 模板：[jolestar][1]
 
 
-> Written with [WENHAO](http://hnrainll.cnblogs.com/).
+> Written with [WENHAO](http://leochin.com/).
 
 
   [1]: https://github.com/jolestar
