@@ -25,5 +25,9 @@ Update：Mar/5/2014
 
 Update：Mar/6/2014
 ---
-
 - [DDoS cyber attacks get bigger, smarter, more damaging](http://in.reuters.com/article/2014/03/05/tech-cyber-ddos-idINL6N0LV2WR20140305)
+
+
+Update：Mar/10/2014
+---
+- [How not to write an API](http://ghost.teario.com/how-not-to-write-an-api/)
