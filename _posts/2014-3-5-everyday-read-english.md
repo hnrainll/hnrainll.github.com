@@ -31,3 +31,8 @@ Update：Mar/6/2014
 Update：Mar/10/2014
 ---
 - [How not to write an API](http://ghost.teario.com/how-not-to-write-an-api/)
+
+
+Update：Mar/11/2014
+---
+- [Python web scraping resource](http://jakeaustwick.me/python-web-scraping-resource/)
