@@ -35,16 +35,16 @@ tags:
 
 1. 创建一个`HandlerThread`，即创建了一个包含Looper的线程。
     
-	HandlerThread handlerThread = new HandlerThread("leochin.com");
-    handlerThread.start();  //创建HandlerThread后一定要记得start()
+	> HandlerThread handlerThread = new HandlerThread("leochin.com");
+    > handlerThread.start();  //创建HandlerThread后一定要记得start()
 
 2. 获取`HandlerThread`的Looper
     
-	Looper looper = handlerThread.getLooper();
+	> Looper looper = handlerThread.getLooper();
 
 3. 创建Handler，通过Looper初始化
    
-	Handler handler = new Handler(looper);
+	> Handler handler = new Handler(looper);
 
 通过以上三步我们就成功创建`HandlerThread`。通过handler发送消息，就会在子线程中执行。
 
