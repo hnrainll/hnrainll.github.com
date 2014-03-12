@@ -36,6 +36,7 @@ tags:
 1. 创建一个`HandlerThread`，即创建了一个包含Looper的线程。
     
 	> HandlerThread handlerThread = new HandlerThread("leochin.com");
+	>
     > handlerThread.start();  //创建HandlerThread后一定要记得start()
 
 2. 获取`HandlerThread`的Looper
