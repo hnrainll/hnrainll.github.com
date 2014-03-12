@@ -22,7 +22,7 @@ tags:
 下面我们看看如何在线程当中实例化`Handler`。在线程中实例化`Handler`我们需要保证线程当中包含Looper(**注意**：*UI-Thread默认包含Looper*)。
 
 
-为线程创建Looper的方法如下：在线程run()方法当中先调用Looper.prepare()初始化Looper,然后再run()方法最后调用Looper.loop()，这样我们就在该线程当中创建好Looper。(**注意**：*Looper.looper()方法默认是死循环*)
+为线程创建Looper的方法如下：在线程run()方法当中先调用Looper.prepare()初始化Looper,然后再run()方法最后调用Looper.loop()，这样我们就在该线程当中创建好Looper。(**注意**：*Looper.loop()方法默认是死循环*)
 
 
 我们实现Looper有没有更加简单的方法呢?当然有，这就是我们的`HandlerThread`。我们来看下`Android`对`HandlerThread`的描述：
