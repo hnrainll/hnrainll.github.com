@@ -36,3 +36,8 @@ Update：Mar/10/2014
 Update：Mar/11/2014
 ---
 - [Python web scraping resource](http://jakeaustwick.me/python-web-scraping-resource/)
+
+
+Update：Mar/13/2014
+---
+- [Samsung Galaxy Back-door](http://redmine.replicant.us/projects/replicant/wiki/SamsungGalaxyBackdoor)
