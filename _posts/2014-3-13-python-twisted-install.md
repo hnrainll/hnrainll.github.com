@@ -47,4 +47,4 @@ tags:
 - [windows上安装 Twisted](http://blog.csdn.net/androidzhaoxiaogang/article/details/8479140)
 
 
-> Written with [wenhao](http://hnrainll.cnblogs.com/).
+> Written with [LeoChin](http://leochin.com/).
