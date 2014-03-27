@@ -19,6 +19,7 @@ Spinner组件是Android当中非常常用的一种用于下拉选择的组件。
 - 如何使用代码的方式初始化Spinner选项
 - 一个Activity当中多个Spinner的监听
 
+<!--more-->
 
 如何在XML中初始化Spinner选项
 ---
