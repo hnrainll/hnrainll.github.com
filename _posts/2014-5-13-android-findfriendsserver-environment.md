@@ -72,6 +72,19 @@ Windows+Apache+PHP+MySQL(Linux环境请自行google)
 效果：在浏览器中输入localhost/lbs/registeruser.php,如果返回成功表示环境搭建成功，失败再有问题。
 
 ---
+
+引用:
+===
+Android代码地址:
+
+- [FindFriends](https://github.com/hnrainll/FindFriends)
+
+
+服务器代码地址：
+
+- [FindFriendsServer](https://github.com/hnrainll/FindFriendsServer)
+
+---
 联系方式：
 ===
 如果搭建过程中出现问题，欢迎给我发送邮件：wenhao@leochin.com
