@@ -27,7 +27,7 @@ tags:
 
     For all usage and documentation please see: <http://jekyllbootstrap.com>
 
- 2. 我的模板选用自：[jolestar][1] 非常感谢您！
+ 2. [http://jekyllrb.com/](http://jekyllrb.com/)
 
 
 

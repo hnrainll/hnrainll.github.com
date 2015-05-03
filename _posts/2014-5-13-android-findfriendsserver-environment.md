@@ -38,11 +38,17 @@ Windows+Apache+PHP+MySQL(Linux环境请自行google)
     
 3. PHP测试
    - PHP安装后，先重启Apache
-   - 然后在apache安装目录的htdocs目录下创建文件：hello.php,并将以下代码拷贝其中，浏览器输入：localhost/hello.php.    
->     <?php
->          echo "HelloWorld!<br>";
->          phpinfo();
->     ?>
+   - 然后在apache安装目录的htdocs目录下创建文件：hello.php,并将以下代码拷贝其中，浏览器输入：localhost/hello.php.
+
+>
+```php
+<?php
+	echo "HelloWorld!<br>";
+	phpinfo();
+?>
+```
+   
+
 
 
 **还需要做的事情：**
@@ -61,11 +67,12 @@ Windows+Apache+PHP+MySQL(Linux环境请自行google)
 1. Apache安装目录的htdocs下创建目录:lbs，将项目的中的lbs服务器中的php源码拷贝到其中
 
 2. 在数据库中创建表，如下：
->     create database lbsbase;
 >
->     create table user_list(uid int NOT NULL AUTO_INCREMENT, username varchar(255), email varchar(255), password varchar(255), PRIMARY KEY (uid));
-> 
->     create table current_status(uid int, lat varchar(255), lon varchar(255), online varchar(255), ipaddress varchar(255));
+```sql
+create database lbsbase;
+create table user_list(uid int NOT NULL AUTO_INCREMENT, username varchar(255), email varchar(255), password varchar(255), PRIMARY KEY (uid));
+create table current_status(uid int, lat varchar(255), lon varchar(255), online varchar(255), ipaddress varchar(255));
+```
 
 3. 解压rsmb_1.2.0.zip文件，运行rsmb_1.2.0\windows\broker.exe
 

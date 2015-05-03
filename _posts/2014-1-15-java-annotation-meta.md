@@ -14,13 +14,14 @@ tags:
 
 自定义Java注释类时，我们使用方式如下：
 
-	@Retention(RetentionPolicy.RUNTIME)
-	@Target(ElementType.METHOD)
-	class @interface Author{
-		public String name();
-		public String company();
-	}
-
+```java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+class @interface Author{
+	public String name();
+	public String company();
+}
+```
 
 这次我们重点讨论修饰注解的注解，也就是我们说的元注解。常用的元注解有四种：`@Retention`,`@Target`,`@Inherited`,`@Documented`
 
