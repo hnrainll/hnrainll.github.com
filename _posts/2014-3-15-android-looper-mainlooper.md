@@ -53,44 +53,46 @@ public static void prepareMainLooper() {
 其实这里就是我们的关键。虽然获取MainLooper和获取myLooper都是用的同一个方法，但是只要我们保证`prepareMainLooper()`只在我们的MainThread中调用唯一的一次，那么我们的sMainLooper将会永远的保存MainThread的Looper。因为在MainThread中的myLooper就是MainLooper。
 
 Android确实也是这样做的，在`ActivityThread.java`当中就是调用了`Looper.prepareMainLooper();`.
-    public static void main(String[] args) {
-        SamplingProfilerIntegration.start();
 
-        // CloseGuard defaults to true and can be quite spammy.  We
-        // disable it here, but selectively enable it later (via
-        // StrictMode) on debug builds, but using DropBox, not logs.
-        CloseGuard.setEnabled(false);
+```java
 
-        Environment.initForCurrentUser();
+public static void main(String[] args) {
+	
+	SamplingProfilerIntegration.start();
+	// CloseGuard defaults to true and can be quite spammy.  We
+	// disable it here, but selectively enable it later (via
+	// StrictMode) on debug builds, but using DropBox, not logs.
+	
+	CloseGuard.setEnabled(false);
+	Environment.initForCurrentUser();
+	
+	// Set the reporter for event logging in libcore
+	EventLogger.setReporter(new EventLoggingReporter());
+	
+	Security.addProvider(new AndroidKeyStoreProvider());
+	
+	Process.setArgV0("<pre-initialized>");
 
-        // Set the reporter for event logging in libcore
-        EventLogger.setReporter(new EventLoggingReporter());
+	Looper.prepareMainLooper();
 
-        Security.addProvider(new AndroidKeyStoreProvider());
+	ActivityThread thread = new ActivityThread();
+	thread.attach(false);
 
-        Process.setArgV0("<pre-initialized>");
+	if (sMainThreadHandler == null) {
+		sMainThreadHandler = thread.getHandler();
+	}
 
-        Looper.prepareMainLooper();
+	AsyncTask.init();
 
-        ActivityThread thread = new ActivityThread();
-        thread.attach(false);
+	if (false) {
+		Looper.myLooper().setMessageLogging(new
+			LogPrinter(Log.DEBUG, "ActivityThread"));
+	}
 
-        if (sMainThreadHandler == null) {
-            sMainThreadHandler = thread.getHandler();
-        }
+	Looper.loop();
 
-        AsyncTask.init();
-
-        if (false) {
-            Looper.myLooper().setMessageLogging(new
-                    LogPrinter(Log.DEBUG, "ActivityThread"));
-        }
-
-        Looper.loop();
-
-        throw new RuntimeException("Main thread loop unexpectedly exited");
-    }
+	throw new RuntimeException("Main thread loop unexpectedly exited");
 }
-
+```
 
 > Written with [LeoChin](http://leochin.com/).
