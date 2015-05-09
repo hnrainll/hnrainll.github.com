@@ -3,9 +3,9 @@ layout: post
 title: "Mac下Scheme环境搭建"
 description: ""
 category: sicp
-tags: []
+tags: [sicp lisp scheme]
 ---
-{% include JB/setup %}
+
 
 > 以下操作基于Mac OS
 
