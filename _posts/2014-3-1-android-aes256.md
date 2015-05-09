@@ -42,7 +42,7 @@ AES加密是我们在工作中常用到一种加密方式，并且在java中也�
 ---
 参考代码
 ---
-[Android实现AES 256加密代码](https://github.com/hnrainll/AES256Demo)
+[Android实现AES 256加密代码](https://github.com/hnrainll/learn-android/tree/master/AES256Demo)
 
 Java同理！
 

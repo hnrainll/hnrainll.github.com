@@ -47,5 +47,5 @@ ndk环境搭建请Google之。
 
 例程：
 ---
-- [JNIDemo](https://github.com/hnrainll/JNIDemo)
+- [JNIDemo](https://github.com/hnrainll/learn-android/tree/master/JNIDemo)
 
