@@ -29,11 +29,13 @@ private static Looper sMainLooper;  // guarded by Looper.class
 public static Looper myLooper() {
 	return sThreadLocal.get();
 }
+
 public static Looper getMainLooper() {
 	synchronized (Looper.class) {
 		return sMainLooper;
 	}
 }
+
 public static void prepareMainLooper() {
 	prepare(false);
 	synchronized (Looper.class) {
