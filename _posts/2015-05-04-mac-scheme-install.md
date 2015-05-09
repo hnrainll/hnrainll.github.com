@@ -72,7 +72,7 @@ PackageControl下载地址：[https://packagecontrol.io/installation](https://pa
 > View > Syntax > Open all with current extension as > Scheme
 
 效果图如下：
-![spinner1.png](../images/Screen Shot 2015-05-09 at 3.46.20 PM.png)
+![spinner1.png](../images/scheme-1.png)
 
 调试代码我们就需要用到SublimeREPL。
 
@@ -86,4 +86,4 @@ PackageControl下载地址：[https://packagecontrol.io/installation](https://pa
 > Tools > Build System > sublimerepl_build_system_hack
 
 然后就在终端中运行Scheme代码了.
-![spinner1.png](../images/Screen Shot 2015-05-09 at 4.14.40 PM.png)
+![spinner1.png](../images/scheme-2.png)
