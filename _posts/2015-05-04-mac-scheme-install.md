@@ -3,7 +3,11 @@ layout: post
 title: "Mac下Scheme环境搭建"
 description: ""
 category: sicp
-tags: [sicp lisp scheme]
+permalink:  /mac-scheme-install/
+tags: 
+	- sicp 
+	- lisp 
+	- scheme
 ---
 
 
