@@ -5,10 +5,10 @@ description: ""
 category: sicp
 permalink:  /mac-scheme-install/
 tags: 
-	- sicp 
-	- lisp 
-	- scheme
-	
+  - sicp 
+  - lisp 
+  - scheme
+
 ---
 
 
