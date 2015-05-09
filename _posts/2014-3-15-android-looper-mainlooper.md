@@ -23,30 +23,28 @@ tags:
 
 主要代码摘要：
 
-    static final ThreadLocal<Looper> sThreadLocal = new ThreadLocal<Looper>();
-    
-    private static Looper sMainLooper;  // guarded by Looper.class
+```java
+static final ThreadLocal<Looper> sThreadLocal = new ThreadLocal<Looper>();
+private static Looper sMainLooper;  // guarded by Looper.class
+public static Looper myLooper() {
+	return sThreadLocal.get();
+}
+public static Looper getMainLooper() {
+	synchronized (Looper.class) {
+		return sMainLooper;
+	}
+}
+public static void prepareMainLooper() {
+	prepare(false);
+	synchronized (Looper.class) {
+		if (sMainLooper != null) {
+			throw new IllegalStateException("The main Looper has already been prepared.");
+		}
+		sMainLooper = myLooper();
+	}
+}
+```
 
-    public static Looper myLooper() {
-        return sThreadLocal.get();
-    }
-    
-    
-    public static Looper getMainLooper() {
-        synchronized (Looper.class) {
-            return sMainLooper;
-        }
-    }
-    
-    public static void prepareMainLooper() {
-        prepare(false);
-        synchronized (Looper.class) {
-            if (sMainLooper != null) {
-                throw new IllegalStateException("The main Looper has already been prepared.");
-            }
-            sMainLooper = myLooper();
-        }
-    }
 
 这里有三个方法比较奇怪的就是我们会发现`sMainLooper = myLooper();`获取MainLooper尽然是通过myLooper()获取的。那岂不是获取MainLooper和myLooper一样了吗？
 
