@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "this is hello"
+title: "这是一个测试post"
 category: android
 ---
 
