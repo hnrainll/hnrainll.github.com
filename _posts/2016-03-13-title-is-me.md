@@ -1,5 +1,5 @@
 ---
-title: "title is me"
+title: title is me
 layout: post
 category: android
 permalink:  /title-is-me/
