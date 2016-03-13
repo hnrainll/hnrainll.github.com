@@ -3,6 +3,9 @@
 - [http://leochin.com](http://leochin.com)
 
 
+创建新文章：
+
+	rake post title='title is me' category='android'
 
 
 # 感谢
