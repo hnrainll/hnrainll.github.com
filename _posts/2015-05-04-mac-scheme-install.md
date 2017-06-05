@@ -4,9 +4,9 @@ title: "Mac下Scheme环境搭建"
 description: ""
 category: sicp
 permalink:  /mac-scheme-install/
-tags: 
-  - sicp 
-  - lisp 
+tags:
+  - sicp
+  - lisp
   - scheme
 
 ---
@@ -42,10 +42,10 @@ For 64-bit package:
 
 ####Step 2
 For 32-bit package:
-> sudo ln -s /usr/local/lib/mit-scheme-i386/mit-scheme /usr/bin/scheme
+> sudo ln -s /usr/local/lib/mit-scheme-i386/mit-scheme /usr/local/bin/scheme
 
 For 64-bit package:
-> sudo ln -s /usr/local/lib/mit-scheme-x86-64/mit-scheme /usr/bin/scheme
+> sudo ln -s /usr/local/lib/mit-scheme-x86-64/mit-scheme /usr/local/bin/scheme
 
 ####Step 3
 终端运行，就可以使用Scheme编程啦！
