@@ -1,13 +1,13 @@
 # Website
 
-- [http://leochin.com](http://leochin.com)
+- [http://hnrainll.github.io](http://hnrainll.github.io)
 
 
 创建新文章：
 
 	rake post title='title is me' category='android'
 
-
+# 感谢
 # 感谢
 
  1. Jekyll-Bootstrap
