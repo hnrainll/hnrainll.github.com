@@ -10,24 +10,22 @@ tags:
 
 ---
 
-
-让我们的vim色彩斑斓实际上就是为我们的vim添加高亮显示了。因为在Mac中vim默认是没有开启高亮显示的，所以需要我们手动的实现起配置。
+vim是在开发中常用的工具，能高亮显示文件内容就变得特别的重要了。但是vim的配置确特别复杂。这里给大家介绍一种非常简单的方式来配置vim。
 
 <!--more-->
 
-1. 将vim的环境文件copy到自己常用用户的主目录下
-> cp /usr/share/vim/vimrc ~/.vimrc
+1. 使用开源项目vimrc
+> https://github.com/amix/vimrc
+其有详细的文档，这里就介绍几个常用的指令。
 
-2. 修改.vimrc文件归读写属性(非必需)
-> sudo chmod 777  .vimrc
+2. 安装vimrc
+```
+git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
+```
 
-
-3. 在.vimrc文件最后加上
-> syntax on
-
-4. 保存退出重新打开terminal,打开一个源文件,色彩斑斓的语法加亮就出现了。
-
----
-引用
----
-- [macvim语法高亮](http://blog.csdn.net/renbaoyong/article/details/6669294)
+3. 升级
+```
+cd ~/.vim_runtime
+git pull --rebase
+```
