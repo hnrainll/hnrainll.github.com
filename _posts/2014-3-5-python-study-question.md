@@ -1,6 +1,6 @@
 ---
 title: Python学习问题记录
-author: wenhao
+author: leo
 layout: post
 category : python
 permalink:  /python-study-question/

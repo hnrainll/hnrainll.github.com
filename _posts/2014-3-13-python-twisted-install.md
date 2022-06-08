@@ -1,6 +1,6 @@
 ---
 title: Windows上安装Python Twisted
-author: wenhao
+author: leo
 layout: post
 category : python
 permalink:  /python-twisted-install/

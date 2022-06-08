@@ -1,6 +1,6 @@
 ---
 title: Linux及MacOSX中使用zsh
-author: wenhao
+author: leo
 layout: post
 category : OS
 permalink:  /linux-macosx-shell-zsh/

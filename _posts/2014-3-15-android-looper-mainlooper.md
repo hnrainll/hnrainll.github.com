@@ -1,6 +1,6 @@
 ---
 title: Android MainLooper的获取原理分析
-author: wenhao
+author: leo
 layout: post
 category : android
 permalink:  /android-looper-mainlooper/

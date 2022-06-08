@@ -1,10 +1,10 @@
 # Site settings
-title: WENHAO Blog
-email: wenhao@leochin.com
+title: Leo Blog
+email: leo4chin@qq.com
 description: > # this means to ignore newlines until "baseurl:"
   Less is more.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://leochin.com" # the base hostname & protocol for your site
+url: "https://hnrainll.github.io" # the base hostname & protocol for your site
 twitter_username: leo4chin
 github_username:  hnrainll
 

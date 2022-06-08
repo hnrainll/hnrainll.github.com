@@ -1,6 +1,6 @@
 ---
 title: Android组件Spinner使用
-author: wenhao
+author: leo
 layout: post
 category : android
 permalink:  /android-widget-spinner/

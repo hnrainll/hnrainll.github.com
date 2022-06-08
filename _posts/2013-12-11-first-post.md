@@ -1,6 +1,6 @@
 ---
 title: Github博客搭建成功
-author: wenhao
+author: leo
 layout: post
 category : 随笔
 permalink:  /first-post/

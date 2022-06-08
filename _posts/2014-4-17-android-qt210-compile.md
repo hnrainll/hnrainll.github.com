@@ -1,6 +1,6 @@
 ---
 title: QT210 Android4.0源码编译和烧录文档整理
-author: wenhao
+author: leo
 layout: post
 category : android
 permalink:  /android-qt210-compile/
@@ -62,7 +62,7 @@ qt210_ics_uboot/tools 目录中有了mkimage 文件(这个用来make uImage 的)
 	`./installtools.sh`
 > 如果出现如下错误，将出错的项目从installtools.sh中去掉。再安装！
 > 
-> wenhao@teacher-A:~/qt210$ sh source/installtools.sh 
+> leo@teacher-A:~/qt210$ sh source/installtools.sh 
 >
 > get host tools now
 > 正在读取软件包列表... 完成

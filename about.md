@@ -13,12 +13,12 @@ Less is more.
 
 
 
-* [@wenhao at weibo][1]
-* [wenhao at github][2]
-* Email:[wenhao@leochin.com][3]
+* [@Leo at weibo][1]
+* [Leo at github][2]
+* Email:[leo4chin@qq.com][3]
 
 
 [1]: http://weibo.com/hnrain
 [2]: http://github.com/hnrainll
-[3]: mailto:wenhao@leochin.com
+[3]: mailto:leo4chin@qq.com
 

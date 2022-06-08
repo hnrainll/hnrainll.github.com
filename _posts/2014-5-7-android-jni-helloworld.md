@@ -1,6 +1,6 @@
 ---
 title: Android JNI HelloWorld实现
-author: wenhao
+author: leo
 layout: post
 category : android
 permalink:  /android-jni-helloworld/

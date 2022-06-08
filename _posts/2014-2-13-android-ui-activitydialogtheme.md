@@ -1,6 +1,6 @@
 ---
 title: Android UI之实现Dialog样式的Activity
-author: wenhao
+author: leo
 layout: post
 category : Android
 permalink:  /android-ui-activitydialogtheme/
@@ -57,4 +57,4 @@ Manifest中对Activity注册如下设置：
 
 测试Demo下载地址：[http://git.oschina.net/hnrainll/ActivityDialog](http://git.oschina.net/hnrainll/ActivityDialog)
 
-> Written with [wenhao](http://hnrainll.cnblogs.com/).
+> Written with [leo](http://hnrainll.cnblogs.com/).

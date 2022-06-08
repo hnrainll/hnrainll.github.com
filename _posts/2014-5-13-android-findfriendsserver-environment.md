@@ -1,6 +1,6 @@
 ---
 title: FindFriendsServer服务搭建
-author: wenhao
+author: leo
 layout: post
 category : android
 permalink:  /android-findfriendsserver-environment/
@@ -94,4 +94,4 @@ Android代码地址:
 ---
 联系方式：
 ===
-如果搭建过程中出现问题，欢迎给我发送邮件：wenhao@leochin.com
+如果搭建过程中出现问题，欢迎给我发送邮件：leo4chin@qq.com
