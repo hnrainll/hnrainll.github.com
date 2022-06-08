@@ -5,7 +5,7 @@
 
 创建新文章：
 
-	rake post title='title is me' category='android'
+	rake post title='title is me' category='bigdata'
 
 # 感谢
 
