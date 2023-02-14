@@ -8,10 +8,11 @@
 
 创建新文章
 
-   rake post title="Title" subtitle="Sub title"
+  rake post title="Title" subtitle="Sub title"
+
 
 本地运行
-   npm start
+  npm start
 
 
 # 感谢
