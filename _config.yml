@@ -17,3 +17,6 @@ kramdown:
 # syntax highlighting
 highlighter: rouge
 #highlighter: pygments
+
+exclude:
+  - changelog.html
