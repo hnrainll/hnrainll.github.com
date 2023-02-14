@@ -4,9 +4,14 @@
 - [http://www.leo4chin.com](http://www.leo4chin.com)
 
 
-创建新文章：
+# 常用指令
 
-	rake post title='title is me' category='bigdata'
+创建新文章
+> rake post title="Title" subtitle="Sub title"
+
+本地运行
+> npm start
+
 
 # 感谢
 
@@ -14,6 +19,7 @@
 
     For all usage and documentation please see: <http://jekyllbootstrap.com>
 
+ 2. Jekyll Theme使用: <https://github.com/Huxpro/huxpro.github.io>
 
 
 
