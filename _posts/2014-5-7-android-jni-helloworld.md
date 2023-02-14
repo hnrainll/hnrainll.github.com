@@ -20,7 +20,7 @@ tags:
      - LOCAL_SRC_FILES := first_jni.c  （指定需要编译的文件）
 5. 在src当中创建java文件，此为与so库对应的接口。（如当前Demo当中的FirstJNI.java）
 
-<!--more-->
+
 >
  注意：
 > 
@@ -36,16 +36,15 @@ tags:
 7. 代码编写完成后，需要编译.c文件为so库。在项目的根目录下.(jni,src等所在的目录),运行ndk-build编译
 
 
-**其他：**
+#### 其他
 
 编写完接口java文件之后，可以通过javah工具生成一个对应的.h文件，用于JNI实现。
 > 实现方法：在bin/classes 目录下执行javah -jni com.example.jnidemo.FirstJNI 即可在当前目录下生成一个.h文件
 
 
-
 ndk环境搭建请Google之。
 
-例程：
----
+#### 例程
+
 - [JNIDemo](https://github.com/hnrainll/learn-android/tree/master/JNIDemo)
 

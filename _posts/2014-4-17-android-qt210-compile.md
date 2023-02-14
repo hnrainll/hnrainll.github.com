@@ -11,20 +11,20 @@ tags:
 
 ---
 
-##开发环境说明：
+## 开发环境说明：
 
 - Ubuntu 12.04 LTS  32bit
 
----
-##源码文件目录：
+
+## 源码文件目录：
 
 - 勤研光盘2013-5-4\4.0
 - [https://github.com/jackyh](https://github.com/jackyh) `（建议在Linux环境下通过git下载）`
 
 
-<!--more-->
----
-##编译过程说明：
+
+## 编译过程说明：
+
 - **编译uboot  (qt210_ics_uboot.bz2)**
 
 	- 交叉编译环境：
@@ -97,8 +97,8 @@ qt210_ics_uboot/tools 目录中有了mkimage 文件(这个用来make uImage 的)
 	> - lunch full_smdkv210-eng
 	> - make -j4
 
----
-##烧写过程说明：
+
+## 烧写过程说明：
 - **制作TF启动，也就是把UBOOT烧到TF卡中**
 
 	将读卡器插入到电脑上
@@ -142,7 +142,3 @@ qt210_ics_uboot/tools 目录中有了mkimage 文件(这个用来make uImage 的)
 - 由于开发板android4.0.4移植的不够完善,有时候会出现电容屏不好使，或者无法解锁，所以，设置--developer options-->Stay awake
 
 - 还有屏保时间设置最长为30min
-
-
-
-> Written with [LeoChin](http://leochin.com/).

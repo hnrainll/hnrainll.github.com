@@ -1,10 +1,11 @@
 ---
 layout: page
-title: About
-header: Post By About
-group: navigation
+title: "About"
+description: "「本分」"
+header-img: "img/bg-little-universe.jpg"
+header-mask: 0.3
+multilingual: true
 ---
-{% include JB/setup %}
 
 ### 关于我
 > 修己以安人
@@ -14,8 +15,6 @@ group: navigation
 
 
 ### 联系方式
-* Email:[leo4chin@qq.com][1]
-
+* Email: [leo4chin@qq.com][1]
 
 [1]: mailto:leo4chin@qq.com
-

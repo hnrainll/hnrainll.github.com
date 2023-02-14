@@ -14,11 +14,9 @@ tags:
 
 今天我要讲的是Looper当中的两个方法：`public static Looper getMainLooper()` 和 `public static Looper myLooper()`。因为好奇为什么在任何地方都能得到MainThread的Looper。
 
-<!--more-->
 
----
-源码分析：
----
+
+## 源码分析：
 源码地址：[Looper.java](https://android.googlesource.com/platform/frameworks/base.git/+/android-4.3_r2/core/java/android/os/Looper.java)
 
 主要代码摘要：
@@ -94,5 +92,3 @@ public static void main(String[] args) {
 	throw new RuntimeException("Main thread loop unexpectedly exited");
 }
 ```
-
-> Written with [LeoChin](http://leochin.com/).
