@@ -1,8 +1,8 @@
 # Site settings
-title: Leo Blog
+title: 修己以安人
 email: leo4chin@qq.com
 description: > # this means to ignore newlines until "baseurl:"
-  修己以安人
+  
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://hnrainll.github.io" # the base hostname & protocol for your site
 #twitter_username: leo4chin
