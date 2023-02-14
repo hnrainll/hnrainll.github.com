@@ -9,8 +9,11 @@ url: "https://hnrainll.github.io" # the base hostname & protocol for your site
 #github_username:  hnrainll
 
 # Build settings
-#markdown: kramdown
-markdown: redcarpet
+markdown: kramdown
+kramdown:
+    input: GFM
+#markdown: redcarpet
 
 # syntax highlighting
-highlighter: pygments
+highlighter: rouge
+#highlighter: pygments

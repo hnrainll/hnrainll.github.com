@@ -1,6 +1,6 @@
 ---
 title: Java 注解类之常用元注解
-author: leo
+author: Leo
 layout: post
 category : Java
 permalink:  /java-annotation-meta/
@@ -28,7 +28,7 @@ class @interface Author{
 <!--more-->
 
 ---
-###@Retention
+### @Retention
 
 @Retention：表示在什么级别保存该注解信息。
 
@@ -45,7 +45,7 @@ RetentionPolicy有3个值：**`CLASS`**,**`RUNTIME`**,**`SOURCE`**
 RetentionPolicy.RUNTIME 可以让你从JVM中读取Annotation注解的信息，以便在分析程序的时候使用.
 
 ---
-###@Target
+### @Target
 
 
 @Target：表示注解用在什么地方。可能的值在属性ElementType中，它是一个枚举类型。
@@ -59,11 +59,11 @@ RetentionPolicy.RUNTIME 可以让你从JVM中读取Annotation注解的信息，�
 - `ElemenetType.TYPE` 类，接口（包括注解类型）或enum声明 
 
 ---
-###@Inherited
+### @Inherited
 
 @Inherited：表示允许子类继承父类中的注解。
 
 ---
-###@Documented
+### @Documented
 
 @Documented：表示将此注解包含在 javadoc 中 ，它代表着此注解会被javadoc工具提取成文档。
