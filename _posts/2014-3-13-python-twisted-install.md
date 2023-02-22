@@ -2,7 +2,7 @@
 title: Windows上安装Python Twisted
 author: Leo
 layout: post
-category : python
+category : programme
 permalink:  /python-twisted-install/
 tags: 
   - python

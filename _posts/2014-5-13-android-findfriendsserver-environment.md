@@ -1,8 +1,8 @@
 ---
 title: FindFriendsServer服务搭建
-author: leo
+author: Leo
 layout: post
-category : android
+category : programme
 permalink:  /android-findfriendsserver-environment/
 tags: 
   - android

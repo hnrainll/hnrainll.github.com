@@ -1,8 +1,8 @@
 ---
 title: Android组件Spinner使用
-author: leo
+author: Leo
 layout: post
-category : android
+category : programme
 permalink:  /android-widget-spinner/
 tags: 
   - android

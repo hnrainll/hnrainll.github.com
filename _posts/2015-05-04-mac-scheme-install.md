@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Mac下Scheme环境搭建"
-description: ""
-category: sicp
+author: "Leo"
+category: programme
 permalink:  /mac-scheme-install/
 tags:
   - sicp

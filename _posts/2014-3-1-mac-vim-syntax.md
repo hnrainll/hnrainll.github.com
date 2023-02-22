@@ -1,12 +1,13 @@
 ---
 title: 让Mac中的VIM色彩斑斓
-author: leo
+author: Leo
 layout: post
-category : MAC
+category : programme
 permalink:  /mac-vim-syntax/
 tags: 
   - mac
   - vim
+  - computer
 
 ---
 

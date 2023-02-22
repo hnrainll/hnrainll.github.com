@@ -1,8 +1,8 @@
 ---
 title: Python学习问题记录
-author: leo
+author: Leo
 layout: post
-category : python
+category : programme
 permalink:  /python-study-question/
 tags: 
   - study

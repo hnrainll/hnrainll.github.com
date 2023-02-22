@@ -1,12 +1,12 @@
 ---
 title: Github博客搭建成功
-author: leo
+author: Leo
 layout: post
-category : 随笔
+category : essay
 permalink:  /first-post/
 tags: 
-  - 生活
-  - 随笔
+  - life
+  - essay
 
 ---
 

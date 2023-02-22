@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "为什么需要对URL进行encode？"
-description: ""
-category: sicp
+author: "Leo"
+category: programme
 permalink:  /url-encode/
 tags: 
-  - URL 
+  - url 
   - encode
+  - computer
 
 ---
 

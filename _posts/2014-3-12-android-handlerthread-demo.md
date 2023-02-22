@@ -1,8 +1,8 @@
 ---
 title: Android HandlerThread 的使用及其Demo
-author: leo
+author: Leo
 layout: post
-category : android
+category : programme
 permalink:  /android-handlerthread-demo/
 tags: 
   - android

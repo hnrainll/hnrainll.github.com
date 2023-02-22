@@ -1,8 +1,8 @@
 ---
 title: Android中AES256加密的实现
-author: leo
+author: Leo
 layout: post
-category : android
+category : programme
 permalink:  /android-aes256/
 tags: 
   - android

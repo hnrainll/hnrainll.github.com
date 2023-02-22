@@ -1,13 +1,13 @@
 ---
 title: Android UI之实现Dialog样式的Activity
-author: leo
+author: Leo
 layout: post
-category : Android
+category : programme
 permalink:  /android-ui-activitydialogtheme/
 tags: 
-  - Android UI
+  - android
   - activity
-  - Dialog
+  - dialog
 
 ---
 

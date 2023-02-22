@@ -2,11 +2,11 @@
 title: Java 注解类之常用元注解
 author: Leo
 layout: post
-category : Java
+category : programme
 permalink:  /java-annotation-meta/
 tags: 
   - interface
-  - 注释类
+  - java
 
 ---
 

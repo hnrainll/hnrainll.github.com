@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "计算机中负数的表示法"
-description: ""
-category: "编程"
+author: "Leo"
+category: "programme"
 permalink:  /computer-minus/
-tags: []
+tags: 
+  - computer
 
 ---
 

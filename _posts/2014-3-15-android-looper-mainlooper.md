@@ -1,8 +1,8 @@
 ---
 title: Android MainLooper的获取原理分析
-author: leo
+author: Leo
 layout: post
-category : android
+category : programme
 permalink:  /android-looper-mainlooper/
 tags: 
   - android
