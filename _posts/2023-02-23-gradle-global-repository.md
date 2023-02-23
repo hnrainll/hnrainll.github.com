@@ -16,10 +16,9 @@ tags:
 
 编译Kafka时发现Gradle从mavenCentral仓库拉依赖包特别慢，就想着换成国内maven源。但不想修改Kafka源码相关的配置，故想到本机全局修改的方式。
 
+---
 现将相关修改记录如下。
 
-
-# 配置如下
 文件所在目录：`~/.gradle/init.gradle`
 若没有`init.gradle`文件便手动创建。
 
