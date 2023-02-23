@@ -39,9 +39,9 @@ task :post do
     post.puts "subtitle: \"#{subtitle.gsub(/-/,' ')}\""
     post.puts "date: #{date}"
     post.puts "author: \"Leo\""
-    post.puts "category: \"\""
     post.puts "header-img: \"img/bg-material.jpg\""
     post.puts "permalink:  /#{title}-#{Time.now.strftime('%Y%m%d')}/"
+    post.puts "category: \"\""    
     post.puts "tags: []"
     post.puts "---"
   end
