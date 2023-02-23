@@ -35,12 +35,15 @@ task :post do
   open(filename, 'w') do |post|
     post.puts "---"
     post.puts "layout: post"
-    post.puts "title: \"#{title.gsub(/-/,' ')}\""
-    post.puts "subtitle: \"#{subtitle.gsub(/-/,' ')}\""
     post.puts "date: #{date}"
-    post.puts "author: \"Leo\""
+    post.puts "author: Leo"
     post.puts "header-img: \"img/bg-material.jpg\""
-    post.puts "permalink:  /#{title}-#{Time.now.strftime('%Y%m%d')}/"
+    post.puts "permalink: /#{title}-#{Time.now.strftime('%Y%m%d')}/"
+    post.puts ""
+    post.puts "title: \"#{title.gsub(/-/,' ')}\""
+    if !subtitle.empty?
+      post.puts "subtitle: \"#{subtitle.gsub(/-/,' ')}\""
+    end
     post.puts "category: \"\""    
     post.puts "tags: []"
     post.puts "---"
