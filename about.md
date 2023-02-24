@@ -15,6 +15,11 @@ multilingual: true
 
 
 ### 联系方式
-* Email: [leo4chin@qq.com][1]
+
+欢迎通过邮件与我联系！
+
+Email: [leo4chin@qq.com][1]
+
+
 
 [1]: mailto:leo4chin@qq.com
