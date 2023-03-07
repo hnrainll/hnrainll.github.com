@@ -62,3 +62,10 @@ tags:
 - AQS本质上维护一个变量 + 队列。
 
 - CountDownLatch、Semaphore、CyclicBarrier都是通过AQS实现，用于不同场景下的线程同步。
+
+
+### References
+- [https://imageslr.com/2020/locks.html](https://imageslr.com/2020/locks.html)
+- [https://www.cnblogs.com/binarylei/p/9569428.html](https://www.cnblogs.com/binarylei/p/9569428.html)
+- [https://www.cnblogs.com/binarylei/p/12544002.html](https://www.cnblogs.com/binarylei/p/12544002.html)
+- [https://yunzhao.gitbook.io/notes/java/concurrency/preface](https://yunzhao.gitbook.io/notes/java/concurrency/preface)
