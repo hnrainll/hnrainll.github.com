@@ -69,3 +69,4 @@ tags:
 - [https://www.cnblogs.com/binarylei/p/9569428.html](https://www.cnblogs.com/binarylei/p/9569428.html)
 - [https://www.cnblogs.com/binarylei/p/12544002.html](https://www.cnblogs.com/binarylei/p/12544002.html)
 - [https://yunzhao.gitbook.io/notes/java/concurrency/preface](https://yunzhao.gitbook.io/notes/java/concurrency/preface)
+- [https://tech.meituan.com/2018/11/15/java-lock.html](https://tech.meituan.com/2018/11/15/java-lock.html)
