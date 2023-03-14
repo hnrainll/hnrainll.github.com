@@ -38,7 +38,7 @@ task :post do
     post.puts "date: #{date}"
     post.puts "author: Leo"
     post.puts "header-img: \"img/bg-material.jpg\""
-    post.puts "permalink: /#{title}-#{Time.now.strftime('%Y%m%d')}/"
+    post.puts "permalink: /#{slug}-#{Time.now.strftime('%Y%m%d')}/"
     post.puts ""
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     if !subtitle.empty?
