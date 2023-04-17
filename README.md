@@ -8,7 +8,7 @@
 
 创建新文章
 ```
-rake post title="Title" subtitle=""
+rake post title="peace" subtitle=""
 ```
 
 本地运行
