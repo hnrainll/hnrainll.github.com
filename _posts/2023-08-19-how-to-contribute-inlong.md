@@ -5,7 +5,7 @@ author: Leo
 header-img: "img/bg-material.jpg"
 permalink: /how-to-contribute-inlong-20230819/
 
-title: "我是如何开始参与InLong项目"
+title: "开始：我与InLong的故事"
 category: "essay"
 tags: [bigdata, inlong]
 ---
