@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2023-08-02
+date: 2023-08-19
 author: Leo
 header-img: "img/bg-material.jpg"
 permalink: /how-to-contribute-inlong-20230802/
@@ -10,7 +10,7 @@ category: "essay"
 tags: [bigdata, inlong]
 ---
 
-从2023年5月下旬开始参与inlong项目，已经快3个月，正好用这篇文章记录下我的这段经历。
+从2023年5月下旬开始参与[inlong][1]项目，已经快3个月，正好用这篇文章记录下我的这段经历。
 
 
 
@@ -55,3 +55,9 @@ tags: [bigdata, inlong]
 
 
 最后，如果你看到这篇文章，也愿意参与到开源项目的建设中，那么参与inlong会是你非常好的选择，因为这是一个有爱的团队。
+
+
+Apache Inlong项目：[https://github.com/apache/inlong][1]
+
+
+[1]: https://github.com/apache/inlong
