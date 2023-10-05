@@ -11,3 +11,4 @@ Thumbs.db
 .sass-cache/
 _pages/
 .jekyll-cache
+Gemfile.lock
