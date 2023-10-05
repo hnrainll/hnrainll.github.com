@@ -1,9 +1,9 @@
 # Site settings
-title: Leo Blog
-SEOTitle: Leo的博客 | Leo Blog
+title: 修己以安人
+SEOTitle: Leo | 修己以安人
 header-img: img/bg-walle.jpg
 email: leo4chin@qq.com
-description: "修己以安人"
+description: ""
 keyword: "大数据、编程"
 url: "http://leo4chin.com" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
