@@ -13,7 +13,7 @@ rake post title="joylovepeace" subtitle=""
 
 本地运行
 ```
-bundle exec jekyll serve --livereload
+rake dev
 ```
 
 
