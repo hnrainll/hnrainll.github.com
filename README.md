@@ -13,7 +13,7 @@ rake post title="joylovepeace" subtitle=""
 
 本地运行
 ```
-npm start
+bundle exec jekyll serve --livereload
 ```
 
 
@@ -21,7 +21,7 @@ npm start
 
  1. jekyllrb: <https://jekyllrb.com/>
 
- 2. Jekyll Theme使用: <https://github.com/Huxpro/huxpro.github.io>
+ 2. Jekyll Theme: <https://github.com/riggraz/no-style-please>
 
 
 

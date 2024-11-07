@@ -1,0 +1,18 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: posts
+    post_list:
+      limit: 12
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+  
+  - title: about
+    entries:
+      - title: email
+        url: mailto:leo4chin@gmail.com    
+      - title: rss feed
+        url: feed.xml
+
