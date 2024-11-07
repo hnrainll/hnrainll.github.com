@@ -1,7 +1,7 @@
 # Website
 
 - [https://hnrainll.github.io](https://hnrainll.github.io)
-- [http://www.leo4chin.com](http://www.leo4chin.com)
+- [https://www.wenhao.ink](https://www.wenhao.ink)
 
 
 # 常用指令
