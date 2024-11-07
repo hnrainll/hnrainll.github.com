@@ -19,9 +19,7 @@ npm start
 
 # 感谢
 
- 1. Jekyll-Bootstrap
-
-    For all usage and documentation please see: <http://jekyllbootstrap.com>
+ 1. jekyllrb: <https://jekyllrb.com/>
 
  2. Jekyll Theme使用: <https://github.com/Huxpro/huxpro.github.io>
 
