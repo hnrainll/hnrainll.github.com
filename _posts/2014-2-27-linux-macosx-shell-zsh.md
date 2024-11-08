@@ -23,16 +23,12 @@ oh-my-zsh 将之前配置文件, 用外挂的方式挂进去, 可以轻松的站
 ## 将 MacOSX / Linux 用的 Shell 改用 zsh
 
 ### 1. 安装zsh
-Debian / Ubuntu  Linux 需要安裝: apt-get install zsh
-
-Mac 预设就有 zsh 了~
-
+Debian / Ubuntu  Linux 需要安裝: apt-get install zsh \
+Mac 预设就有 zsh 了~\
 安装完 zsh 后, chsh -s /bin/zsh 即可.
 
-> **NOTES:**
->
-> chsh -s /bin/zsh # 设定为 default shell
->
+> **NOTES:** \
+> chsh -s /bin/zsh # 设定为 default shell \
 > 相关设定: .zshenv, .zprofile, .zshrc, .zlogin
 
 
@@ -66,8 +62,7 @@ plugins=(git osx) # 啟用 git, osx 的 plugin
 vim ~/.zshrc
 ```
 
-或者使用其他你喜欢的编辑器编辑~/.zshrc
-
+或者使用其他你喜欢的编辑器编辑~/.zshrc \
 在文件内容末端添加：
 ```shell
 export LC_ALL=en_US.UTF-8  

@@ -33,7 +33,9 @@ URL转义表示法包含一个百分号，后面跟上两个表示字符ASCII码
 
 
 以下是RFC3986中对转义部分的一些定义：
+
 ![](../img/in-post/post-url-encode/rfc3986.png)
+
 Reserved characters are those characters that sometimes have special meaning。
 Unreserved characters have no such meanings。
 
@@ -42,7 +44,6 @@ Unreserved characters have no such meanings。
 PS：不同的编程语言对于URL的转义还不一样。比如Java中的URLEncoder是按照RFC2398转义，PHP5中的rawurlencode是按照RFC3986转义。
 
 
-Reference：
-
+## Reference
 - [Percent-encoding - Wikipedia](https://en.wikipedia.org/wiki/Percent-encoding)
 - HTTP权威指南 2.4章

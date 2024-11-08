@@ -11,13 +11,10 @@ tags:
 
 ---
 
-
 > 以下操作基于Mac OS
-
 
 ## Install MIT-Scheme
 在Mac上安装有两种方式：
-
 - 通过brew安装
 - 下载MIT-Scheme安装包
 
@@ -25,9 +22,8 @@ tags:
 
 
 ## 安装Scheme
-[http://www.gnu.org/software/mit-scheme/](http://www.gnu.org/software/mit-scheme/)
-
 选择适合自己的版本，下载并安装Scheme包。
+- [http://www.gnu.org/software/mit-scheme/](http://www.gnu.org/software/mit-scheme/)
 
 
 ## Scheme配置
@@ -35,21 +31,31 @@ Scheme配置引用自：[https://jacksonisaac.wordpress.com/2014/03/25/installin
 
 #### Step 1
 For 32-bit package:
-> sudo ln -s /Applications/MIT\:GNU\ Scheme.app/Contents/Resources /usr/local/lib/mit-scheme-i386
+```shell
+sudo ln -s /Applications/MIT\:GNU\ Scheme.app/Contents/Resources /usr/local/lib/mit-scheme-i386
+```
 
 For 64-bit package:
-> sudo ln -s /Applications/MIT\:GNU\ Scheme.app/Contents/Resources /usr/local/lib/mit-scheme-x86-64
+```shell
+sudo ln -s /Applications/MIT\:GNU\ Scheme.app/Contents/Resources /usr/local/lib/mit-scheme-x86-64
+```
 
 #### Step 2
 For 32-bit package:
-> sudo ln -s /usr/local/lib/mit-scheme-i386/mit-scheme /usr/local/bin/scheme
+```shell
+sudo ln -s /usr/local/lib/mit-scheme-i386/mit-scheme /usr/local/bin/scheme
+```
 
 For 64-bit package:
-> sudo ln -s /usr/local/lib/mit-scheme-x86-64/mit-scheme /usr/local/bin/scheme
+```shell
+sudo ln -s /usr/local/lib/mit-scheme-x86-64/mit-scheme /usr/local/bin/scheme
+```
 
 #### Step 3
 终端运行，就可以使用Scheme编程啦！
-> scheme
+```shell
+scheme
+```
 
 
 ## Scheme开发环境搭建
@@ -90,5 +96,6 @@ PackageControl下载地址：[https://packagecontrol.io/installation](https://pa
 如果想运行Scheme代码，我们还需要设置Build系统：
 > Tools > Build System > sublimerepl_build_system_hack
 
-然后就在终端中运行Scheme代码了.
+然后就在终端中运行Scheme代码了。
+
 ![spinner1.png](../img/in-post/post-mac-scheme-install/scheme-2.png)

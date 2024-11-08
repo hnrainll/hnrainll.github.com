@@ -12,7 +12,6 @@ tags:
 ---
 
 # 开发环境说明：
-
 - Ubuntu 12.04 LTS  32bit
 
 
@@ -22,8 +21,7 @@ tags:
 
 
 
-# 编译过程说明：
-
+# 编译过程说明
 ## 编译uboot  (qt210_ics_uboot.bz2)
 
 交叉编译环境：
@@ -86,8 +84,7 @@ tar jxf android_qt210.tar.bz2
 
 如果在编译过程当中出现缺少库的情况，那么缺什么库就安装什么库。
 
-**编译**
-
+**编译** \
 compilesrc.sh中的内容也比较简单，就是编译android源码的三个步骤：
 ```shell
 source build/envsetup.sh
@@ -96,25 +93,22 @@ make -j4
 ```
 
 
-## 烧写过程说明：
-**制作TF启动，也就是把UBOOT烧到TF卡中**
-
+## 烧写过程说明
+**制作TF启动，也就是把UBOOT烧到TF卡中** \
 将读卡器插入到电脑上在ubuntu虚拟机下,找到已经编译好的uboot所在文件夹。
 ```shell
 cd qt210_ics_uboot/sd_fusing
 sudo ./sd_fusing_uboot.sh /dev/sdb #将编译好的uboot烧录到tf卡当中
 ```
 
-**将TF卡插入开发板，选择TF卡启动**
-
+**将TF卡插入开发板，选择TF卡启动** \
 进入bootloader模式，然后敲：
 ```shell	
 fdisk -c 0 #格式化sd卡
 fastboot #启动fastboot工具，使用fastboot需要连接USB OTG线
 ```
 
-**在windows当中，建立文件夹将编译好的**
-
+**在windows当中，建立文件夹将编译好的** \
 u-boot.bin、uImage、ramdisk-uboot.img、system.img放入其中将fastboot.exe和leo_android.bat拷贝到目录当中leo_android.bat内容如下：
 ```
 fastboot.exe flash bootloader u-boot.bin 
@@ -124,8 +118,7 @@ fastboot.exe flash ramdisk ramdisk-uboot.img
 fastboot.exe -w
 ```
 
-双击运行leo_android.bat,现在就通过fastboot协议烧录android系统
-
+双击运行leo_android.bat,现在就通过fastboot协议烧录android系统 \
 **烧录完成后将tf卡取出插入电脑在ubuntu下，清除第三分区**
 ```shell
 sudo mkfs.ext4 /dev/sdb3
@@ -134,7 +127,6 @@ sudo mkfs.ext4 /dev/sdb3
 **插入开发板重启启动即可！**
 
 
-## 注意：
-
+## 注意
 - 由于开发板android4.0.4移植的不够完善,有时候会出现电容屏不好使，或者无法解锁，所以，设置--developer options-->Stay awake
 - 还有屏保时间设置最长为30min

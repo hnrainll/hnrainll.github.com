@@ -31,8 +31,7 @@ tags:
 
 ## 其他
 
-编写完接口java文件之后，可以通过javah工具生成一个对应的.h文件，用于JNI实现。
-
+编写完接口java文件之后，可以通过javah工具生成一个对应的.h文件，用于JNI实现。\
 实现方法：在bin/classes 目录下执行javah -jni com.example.jnidemo.FirstJNI 即可在当前目录下生成一个.h文件。
 
 ndk环境搭建请Google之。

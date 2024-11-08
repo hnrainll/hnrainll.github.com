@@ -18,36 +18,30 @@ AES加密是我们在工作中常用到一种加密方式，并且在java中也�
 
 
 
-## 解决方式：
+## 解决方式
 
 如果要启动256位密钥,则需要更新local_policy.jar,US_export_policy.jar
 
-> 如果你的JAVA_HOME为C:\Program Files\Java\jdk1.6.0_14. 
-> 
-> 覆盖: C:\Program Files\Java\jdk1.6.0_14\jre\lib\security下的同名文件 
-> 
+> 如果你的JAVA_HOME为C:\Program Files\Java\jdk1.6.0_14. \
+> 覆盖: C:\Program Files\Java\jdk1.6.0_14\jre\lib\security下的同名文件 \
 > 覆盖: C:\Program Files\Java\jre6\lib\security下的同名文件 
 
 下载地址：
 
-**java6:**
-
+**java6:** \
 [http://www.oracle.com/technetwork/java/javase/downloads/jce-6-download-429243.html](http://www.oracle.com/technetwork/java/javase/downloads/jce-6-download-429243.html)
 
-**java7:**
-
+**java7:** \
 [http://www.oracle.com/technetwork/java/javase/downloads/jce-7-download-432124.html](http://www.oracle.com/technetwork/java/javase/downloads/jce-7-download-432124.html)
 
 
 
 ## 参考代码
-[Android实现AES 256加密代码](https://github.com/hnrainll/learn-android/tree/master/AES256Demo)
-
+[Android实现AES 256加密代码](https://github.com/hnrainll/learn-android/tree/master/AES256Demo) \
 Java同理！
 
 
 ## 引用
-
 - [java AES为什么不支持256位？](http://bbs.csdn.net/topics/280086588)
 - [http://www.oracle.com/technetwork/java/javase/downloads/jce-6-download-429243.html](http://www.oracle.com/technetwork/java/javase/downloads/jce-6-download-429243.html)
 - [http://www.oracle.com/technetwork/java/javase/downloads/jce-7-download-432124.html](http://www.oracle.com/technetwork/java/javase/downloads/jce-7-download-432124.html)

@@ -16,7 +16,7 @@ tags:
 
 
 
-## 源码分析：
+## 源码分析
 源码地址：[Looper.java](https://android.googlesource.com/platform/frameworks/base.git/+/android-4.3_r2/core/java/android/os/Looper.java)
 
 主要代码摘要：

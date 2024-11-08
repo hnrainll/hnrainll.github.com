@@ -31,7 +31,7 @@ spinner有两种弹出方式：`dialog`和`dropdown`。如果是`dialog`方式�
 
 
 ## 如何使用代码的方式初始化Spinner选项
-在代码中添加首先定义一个数组，存放需要spinner选项中需要显示的数据。`private static final String[] m = { "A型", "B型", "O型", "AB型", "其他" };`
+在代码中添加首先定义一个数组，存放需要spinner选项中需要显示的数据。`private static final String[] m = { "A型", "B型", "O型", "AB型", "其他" };` 
 
 然后进行如下设置：
 
