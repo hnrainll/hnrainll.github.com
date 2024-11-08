@@ -7,7 +7,6 @@ permalink:  /java-annotation-meta/
 tags: 
   - interface
   - java
-
 ---
 
 @interface用来声明一个注解，其中的每一个方法实际上是声明了一个配置参数。方法的名称就是参数的名称，返回值类型就是参数的类型（返回值类型只能是基本类型、Class、String、enum）。可以通过default来声明参数的默认值。
@@ -28,8 +27,8 @@ class @interface Author{
 <!--more-->
 
 ---
-### @Retention
 
+### @Retention
 @Retention：表示在什么级别保存该注解信息。
 
 Retention注解有一个属性value，是RetentionPolicy类型的，Enum RetentionPolicy是一个枚举类型，
@@ -44,10 +43,7 @@ RetentionPolicy有3个值：**`CLASS`**,**`RUNTIME`**,**`SOURCE`**
 
 RetentionPolicy.RUNTIME 可以让你从JVM中读取Annotation注解的信息，以便在分析程序的时候使用.
 
----
 ### @Target
-
-
 @Target：表示注解用在什么地方。可能的值在属性ElementType中，它是一个枚举类型。
 
 - `ElemenetType.CONSTRUCTOR` 构造器声明
@@ -58,12 +54,8 @@ RetentionPolicy.RUNTIME 可以让你从JVM中读取Annotation注解的信息，�
 - `ElemenetType.PARAMETER` 参数声明
 - `ElemenetType.TYPE` 类，接口（包括注解类型）或enum声明 
 
----
 ### @Inherited
-
 @Inherited：表示允许子类继承父类中的注解。
 
----
 ### @Documented
-
 @Documented：表示将此注解包含在 javadoc 中 ，它代表着此注解会被javadoc工具提取成文档。

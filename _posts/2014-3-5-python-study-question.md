@@ -13,7 +13,7 @@ tags:
 对在Python学习中，遇到的一些问题进行记录！
 
 
-### Update：Mar/5/2014
+## Update：Mar/5/2014
 
 **QUESTION: 运行.py文件时报错：`SyntaxError: Non-ASCII character '\xa3' in file`**
 
