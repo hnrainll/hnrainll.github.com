@@ -19,7 +19,7 @@ rake dev
 
 # 感谢
 
- 1. jekyllrb: <https://jekyllrb.com/>
+ 1. Jekyllrb: <https://jekyllrb.com/>
 
  2. Jekyll Theme: <https://github.com/riggraz/no-style-please>
 
