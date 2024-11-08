@@ -50,15 +50,15 @@ task :post do
   end
 end # task :post
 
-desc "Launch preview environment"
-task :preview do
-  system "jekyll --auto --server"
-end # task :preview
-
 desc "Launch dev environment"
 task :dev do
   system "bundle exec jekyll serve --livereload"
-end # task :preview
+end # task :dev
+
+desc "Launch project build"
+task :build do
+  system "bundle exec jekyll build"
+end # task :build
 
 #Load custom rake scripts
 Dir['_rake/*.rake'].each { |r| load r }

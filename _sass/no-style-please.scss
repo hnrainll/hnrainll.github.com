@@ -121,9 +121,14 @@ article img {
 }
 
 .w {
-  max-width: 480px;
+  max-width: 640px;
   margin: 0 auto;
   padding: 4rem 2rem;
+}
+
+.home-w {
+  max-width: 480px;
+  margin: 0 auto;
 }
 
 .post-meta { 
