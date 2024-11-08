@@ -40,6 +40,15 @@ body {
   // overflow-wrap: break-word;
 }
 
+body a {
+  text-decoration: none;
+  color: #4183c4;
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
 h1,
 h2,
 h3,
