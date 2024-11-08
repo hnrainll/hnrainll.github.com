@@ -76,6 +76,41 @@ article img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+blockquote {
+  border-left: 4px solid #ddd;
+  padding: 0 15px;
+  margin: 30px 10px;
+  color: #777;
+}
+blockquote > :first-child {
+  margin-top: 0;
+}
+blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+:not(pre) > code {
+  background-color: #f0f3f3;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1.08em;
+}
+
+.highlight {
+  /* 统一行高，让行号和代码能对齐 */
+  line-height: 18px;
+}
+
+/* 不带行号的代码块 */
+.highlight > pre {
+  /* 适当留出边距 */
+  padding: 10px;
+
+  /* 代码行太长向右滚动 */
+  overflow: auto;
+}
+
 .w {
   max-width: 640px;
   margin: 0 auto;
