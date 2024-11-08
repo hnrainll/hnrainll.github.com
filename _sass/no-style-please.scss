@@ -144,11 +144,9 @@ blockquote > :last-child {
   margin: 0 auto;
 }
 
-.post-title {
+.title {
   font-size: 2.4rem;
   margin: 2rem 0 0.8rem 0;
-  // font-size: 36px;
-  // margin-bottom: 10px;
   font-weight: bold;
 }
 
@@ -161,5 +159,5 @@ blockquote > :last-child {
   font-size: 14px;
   text-align: center;
   color: #777;
-  margin: 4rem 0;
+  margin: 4rem 0 0 0;
 }
