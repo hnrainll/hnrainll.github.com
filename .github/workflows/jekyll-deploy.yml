@@ -28,10 +28,7 @@ jobs:
         SERVER_USER: ${{ secrets.SERVER_USER }}
         SERVER_PATH: ${{ secrets.SERVER_PATH }}
       run: |
-        uname -a
         mkdir -p ~/.ssh
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
-        ls -al ~/.ssh
-        realpath ~/.ssh/ids_rsa
         rsync -avz -e "ssh -i /home/runner/.ssh/id_rsa -o StrictHostKeyChecking=no" --delete _site/ $SERVER_USER@$SERVER_HOST:$SERVER_PATH
