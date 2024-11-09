@@ -1,4 +1,4 @@
-name: Build and Deploy Jekyll Site
+name: build-and-deploy-jekyll-site
 
 on:
   push:
@@ -18,9 +18,9 @@ jobs:
         ruby-version: '3.3' # Not needed with a `.ruby-version` or `.tool-versions`
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
-    - name: Install dependencies
+    - name: Build Jekyll site
       run: |
-          # gem install bundler
-          # bundle install
           uname -a
           ruby -v
+          bundle exec jekyll build
+          ls -al
