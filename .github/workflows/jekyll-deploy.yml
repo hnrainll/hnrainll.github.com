@@ -28,10 +28,9 @@ jobs:
         SERVER_USER: ${{ secrets.SERVER_USER }}
         SERVER_PATH: ${{ secrets.SERVER_PATH }}
       run: |
-        # 设置 SSH 密钥
+        uname -a
         mkdir -p ~/.ssh
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
-
-        # 将编译后的 Jekyll 文件传输到服务器
+        ls -al ~/.ssh
         rsync -avz --delete _site/ $SERVER_USER@$SERVER_HOST:$SERVER_PATH
