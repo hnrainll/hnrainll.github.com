@@ -33,6 +33,5 @@ jobs:
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
         ls -al ~/.ssh
-        realpath ~/.ssh
-        pwd
-        rsync -avz --delete _site/ $SERVER_USER@$SERVER_HOST:$SERVER_PATH
+        realpath ~/.ssh/ids_rsa
+        rsync -avz -e "ssh -i /home/runner/.ssh/id_rsa -o StrictHostKeyChecking=no" --delete _site/ $SERVER_USER@$SERVER_HOST:$SERVER_PATH
