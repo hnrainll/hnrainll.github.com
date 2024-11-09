@@ -5,7 +5,7 @@ on:
     branches: [ "master" ]
 
 jobs:
-  build:
+  blog:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,9 +18,20 @@ jobs:
         ruby-version: '3.3' # Not needed with a `.ruby-version` or `.tool-versions`
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
-    - name: Build Jekyll site
-      run: |
-          uname -a
-          ruby -v
-          bundle exec jekyll build
-          ls -al
+    - name: Build Jekyll Site
+      run: bundle exec jekyll build
+
+    - name: Copy generated site to server
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          SERVER_HOST: ${{ secrets.SERVER_HOST }}
+          SERVER_USER: ${{ secrets.SERVER_USER }}
+          SERVER_PATH: ${{ secrets.SERVER_PATH }}
+        run: |
+          # 设置 SSH 密钥
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+
+          # 将编译后的 Jekyll 文件传输到服务器
+          rsync -avz --delete _site/ $SERVER_USER@$SERVER_HOST:$SERVER_PATH
