@@ -14,7 +14,7 @@ tags: [bigdata, docker]
 # docker安装
 参考华为云开源镜像中Docker-CE镜像的配置。
 
-![](../img/in-post/post-huaweicloud-docker/huaweicloud-docker-1.png)
+![](../img/post-huaweicloud-docker/huaweicloud-docker-1.png)
 
 ```shell
 sudo yum install -y yum-utils device-mapper-persistent-data lvm2
@@ -43,11 +43,11 @@ chmod +x /usr/local/bin/docker-compose
 在华为云中支持docker镜像加速。
 登录华为云账号后找到SWR服务后，如下图找到镜像加速器按钮。
 
-![](../img/in-post/post-huaweicloud-docker/huaweicloud-docker-2.png)
+![](../img/post-huaweicloud-docker/huaweicloud-docker-2.png)
 
 弹出如下配置：
 
-![](../img/in-post/post-huaweicloud-docker/huaweicloud-docker-3.png)
+![](../img/post-huaweicloud-docker/huaweicloud-docker-3.png)
 
 配置完成后，重启docker
 

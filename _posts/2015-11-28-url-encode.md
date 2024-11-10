@@ -34,7 +34,7 @@ URL转义表示法包含一个百分号，后面跟上两个表示字符ASCII码
 
 以下是RFC3986中对转义部分的一些定义：
 
-![](../img/in-post/post-url-encode/rfc3986.png)
+![](../img/post-url-encode/rfc3986.png)
 
 Reserved characters are those characters that sometimes have special meaning。
 Unreserved characters have no such meanings。
