@@ -23,7 +23,7 @@ Spinner组件是Android当中非常常用的一种用于下拉选择的组件。
 
 打开`res/values`在其中创建`arrays.xml`文件。添加如下内容：
 
-![spinner1.png](../img/in-post/post-android-widget-spinner/android-widget-spinner1.png)
+![spinner1.png](../img/post-android-widget-spinner/android-widget-spinner1.png)
 
 在对应的Spinner布局文件当中添加如下选项：`android:entries="@array/country_arrays"`
 
@@ -35,14 +35,14 @@ spinner有两种弹出方式：`dialog`和`dropdown`。如果是`dialog`方式�
 
 然后进行如下设置：
 
-![spinner2.png](../img/in-post/post-android-widget-spinner/android-widget-spinner2.png)
+![spinner2.png](../img/post-android-widget-spinner/android-widget-spinner2.png)
 
 
 ## 一个Activity当中多个Spinner的监听
 
 如果Activity中只有一个Spinner，监听item选择监听的实现比较简单，但是当有两个Spinner时，我们就需要区分到底是哪个Spinner。代码如下：
 
-![spinner3.png](../img/in-post/post-android-widget-spinner/android-widget-spinner3.png)
+![spinner3.png](../img/post-android-widget-spinner/android-widget-spinner3.png)
 
 > 重点：区分多个spinner通过arg0获取id而不是通过arg1
 

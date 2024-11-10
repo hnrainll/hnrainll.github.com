@@ -83,7 +83,7 @@ PackageControl下载地址：[https://packagecontrol.io/installation](https://pa
 > View > Syntax > Open all with current extension as > Scheme
 
 效果图如下：
-![spinner1.png](../img/in-post/post-mac-scheme-install/scheme-1.png)
+![spinner1.png](../img/post-mac-scheme-install/scheme-1.png)
 
 调试代码我们就需要用到SublimeREPL。
 
@@ -98,4 +98,4 @@ PackageControl下载地址：[https://packagecontrol.io/installation](https://pa
 
 然后就在终端中运行Scheme代码了。
 
-![spinner1.png](../img/in-post/post-mac-scheme-install/scheme-2.png)
+![spinner1.png](../img/post-mac-scheme-install/scheme-2.png)

@@ -1,5 +1,5 @@
 ---
-title: Android HandlerThread 的使用及其Demo
+title: Android HandlerThread的使用
 author: Leo
 layout: post
 category : programme

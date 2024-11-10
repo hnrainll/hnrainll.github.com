@@ -1,5 +1,5 @@
 ---
-title: Android UI之实现Dialog样式的Activity
+title: 实现Android Dialog样式的Activity
 author: Leo
 layout: post
 category : programme
