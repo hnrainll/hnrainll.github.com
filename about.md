@@ -3,4 +3,4 @@ layout: page
 title: About
 ---
 
-print("Hello world!");
+print("Hello, world!");
