@@ -13,12 +13,12 @@ CONFIG = {
   'theme_package_version' => "0.1.0"
 }
 
-# Usage: rake post title="A Title" subtitle="A sub title"
+# Usage: rake post title='A Title'
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
+
   title = ENV["title"] || "new-post"
-  subtitle = ENV["subtitle"] || "This is a subtitle"
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   begin
     date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
@@ -37,13 +37,9 @@ task :post do
     post.puts "layout: post"
     post.puts "date: #{date}"
     post.puts "author: Leo"
-    post.puts "header-img: \"img/bg-material.jpg\""
     post.puts "permalink: /#{slug}-#{Time.now.strftime('%Y%m%d')}/"
     post.puts ""
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
-    if !subtitle.empty?
-      post.puts "subtitle: \"#{subtitle.gsub(/-/,' ')}\""
-    end
     post.puts "category: \"\""    
     post.puts "tags: []"
     post.puts "---"
