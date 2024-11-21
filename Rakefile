@@ -56,5 +56,10 @@ task :build do
   system "bundle exec jekyll build"
 end # task :build
 
+desc "clean project"
+task :clean do
+  system "bundle exec jekyll clean"
+end # task :clean
+
 #Load custom rake scripts
 Dir['_rake/*.rake'].each { |r| load r }
