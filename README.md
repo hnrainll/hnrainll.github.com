@@ -16,6 +16,16 @@ rake post title='joylovepeace'
 rake dev
 ```
 
+# 初始化功能
+在第一次clone项目之后，需要在本地安装ruby开发环境，以及相关的软件。ruby安装自行搜索。
+
+依赖包安装执行如下：
+```
+gem install bundler jekyll
+
+bundle install
+```
+
 
 # 感谢
 
