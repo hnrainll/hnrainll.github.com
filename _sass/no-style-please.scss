@@ -97,6 +97,14 @@ img {
 article p {
   margin: 25px 0;
   line-height: 1.8;
+
+  &:has(+ ul) {
+    margin-bottom: 0;
+  }
+
+  & + ul {
+    margin-top: 0;
+  }
 }
 
 article img {
