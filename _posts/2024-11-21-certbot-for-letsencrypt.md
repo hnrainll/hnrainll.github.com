@@ -69,12 +69,52 @@ sudo certbot certonly --webroot -w /path/to/webroot -d example.com -d www.exampl
 # 验证是否能够续签
 sudo certbot renew --dry-run
 
-# crontab 中添加定时调度
-sudo crontab -e
-0 3 * * * certbot renew --quiet --deploy-hook "nginx -s reload"
-
 ```
-验证续签功能通过，说明当前环境没问题。就可以将续签的指令添加到 crontab 中每天晚上 3 点检测一次。`--deploy-hook` 指定续签成功后 reload 配置。
+验证续签功能通过，说明当前环境没问题。
+
+通过snap安装certbot时，会自动在systemctl中安装续签定时调度。可以通过如下指令查看。
+```shell
+systemctl list-timers
+```
+看到如下配置，说明定时调度配置是成功的。
+```text
+# systemctl list-timers
+NEXT                         LEFT       LAST                         PASSED       UNIT                         ACTIVATES
+Mon 2025-11-03 22:55:00 CST  8h left    Mon 2025-11-03 06:52:12 CST  7h ago       snap.certbot.renew.timer     snap.certbot.renew.service
+```
+
+后续，我们只需要在`/etc/letsencrypt/renewal-hooks/deploy`在目录中添加部署脚本`reload-nginx.sh`，即可实现自动续签和自动重启Nginx服务。
+```shell
+#!/bin/bash
+
+# 日志文件
+LOG_FILE="/var/log/certbot-hook.log"
+DATE=$(date '+%Y-%m-%d %H:%M:%S')
+
+# 记录开始
+echo "========================================" >> "$LOG_FILE"
+echo "[$DATE] Hook 脚本开始执行" >> "$LOG_FILE"
+
+# 测试 Nginx 配置
+echo "[$DATE] 测试 Nginx 配置..." >> "$LOG_FILE"
+if nginx -t >> "$LOG_FILE" 2>&1; then
+    echo "[$DATE] Nginx 配置测试通过" >> "$LOG_FILE"
+
+    # 重载 Nginx
+    echo "[$DATE] 开始重载 Nginx..." >> "$LOG_FILE"
+    if systemctl reload nginx >> "$LOG_FILE" 2>&1; then
+        echo "[$DATE] ✅ Nginx 重载成功" >> "$LOG_FILE"
+        exit 0
+    else
+        echo "[$DATE] ❌ Nginx 重载失败" >> "$LOG_FILE"
+        exit 1
+    fi
+else
+    echo "[$DATE] ❌ Nginx 配置测试失败，跳过重载" >> "$LOG_FILE"
+    exit 1
+fi
+```
+
 
 ## 其他
 ```shell
