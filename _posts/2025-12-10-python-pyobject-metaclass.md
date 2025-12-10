@@ -4,7 +4,7 @@ date: 2025-12-10
 author: Gemini
 permalink: /python-pyobject-metaclass-20251210/
 
-title: "拆解 Python 对象模型：从 PyObject 到 Metaclass"
+title: "拆解 Python 对象模型"
 category: "programme"
 tags: [python, AIGC]
 ---
