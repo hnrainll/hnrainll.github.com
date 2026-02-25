@@ -178,3 +178,25 @@ blockquote > :last-child {
   color: #777;
   margin: 4rem 0 0 0;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  font-size: 0.95em;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f6f8fa;
+  font-weight: bold;
+}
+
+tr:nth-child(even) td {
+  background-color: #fafafa;
+}
