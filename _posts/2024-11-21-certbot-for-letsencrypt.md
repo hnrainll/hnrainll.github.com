@@ -122,6 +122,9 @@ fi
 sudo certbot certonly --webroot -w /path/to/webroot --force-renewal --deploy-hook "nginx -s reload" -d example.com -d www.example.com
 ```
 
+## 注意
+如果你修改过 `webroot` 路径，记得要将 `/etc/letsencrypt/renewal/` 目录中对应的配置中相关路径修改为修改过后的路径。
+
 
 # 引用
 - [https://letsencrypt.org/](https://letsencrypt.org/)
