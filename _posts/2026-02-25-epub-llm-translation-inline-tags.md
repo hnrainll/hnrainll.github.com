@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2026-02-25
-author: Leo
+author: Hao
 permalink: /epub-llm-translation-20260225/
 title: "用大模型翻译 EPUB：从占位符到最小干预"
 category: "programme"

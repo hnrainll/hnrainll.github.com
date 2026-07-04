@@ -1,6 +1,6 @@
 ---
 title: 实现Android Dialog样式的Activity
-author: Leo
+author: Hao
 layout: post
 category : programme
 permalink:  /android-ui-activitydialogtheme/

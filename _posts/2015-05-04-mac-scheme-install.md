@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mac下Scheme环境搭建"
-author: "Leo"
+author: Hao
 category: programme
 permalink:  /mac-scheme-install/
 tags:

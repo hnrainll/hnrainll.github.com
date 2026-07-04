@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2023-08-19
-author: Leo
+author: Hao
 header-img: "img/bg-material.jpg"
 permalink: /how-to-contribute-inlong-20230819/
 

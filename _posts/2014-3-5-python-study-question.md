@@ -1,6 +1,6 @@
 ---
 title: Python学习问题记录
-author: Leo
+author: Hao
 layout: post
 category : programme
 permalink:  /python-study-question/

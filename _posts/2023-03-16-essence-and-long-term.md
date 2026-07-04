@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2023-03-16
-author: Leo
+author: Hao
 header-img: "img/bg-material.jpg"
 permalink: /essence-and-long-term-20230316/
 

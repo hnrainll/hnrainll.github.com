@@ -1,6 +1,6 @@
 ---
 title: Android JNI HelloWorld实现
-author: Leo
+author: Hao
 layout: post
 category : programme
 permalink:  /android-jni-helloworld/

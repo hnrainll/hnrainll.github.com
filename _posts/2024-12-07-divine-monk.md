@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-12-07
-author: Leo
+author: Hao
 permalink: /divine-monk-20241207/
 
 title: "神僧有言"

@@ -1,6 +1,6 @@
 ---
 title: Github博客搭建成功
-author: Leo
+author: Hao
 layout: post
 category : essay
 permalink:  /first-post/

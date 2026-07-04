@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2023-02-24
-author: "Leo"
+author: Hao
 header-img: "img/bg-material.jpg"
 permalink: /cos-backup-trouble-20230224/
 title: "排查COS备份异常"

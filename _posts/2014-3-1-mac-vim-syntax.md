@@ -1,6 +1,6 @@
 ---
 title: 让Mac中的VIM色彩斑斓
-author: Leo
+author: Hao
 layout: post
 category : programme
 permalink:  /mac-vim-syntax/

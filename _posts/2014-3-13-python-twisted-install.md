@@ -1,6 +1,6 @@
 ---
 title: Windows上安装Python Twisted
-author: Leo
+author: Hao
 layout: post
 category : programme
 permalink:  /python-twisted-install/

@@ -1,6 +1,6 @@
 ---
 title: QT210 Android4.0源码编译和烧录
-author: Leo
+author: Hao
 layout: post
 category : programme
 permalink:  /android-qt210-compile/

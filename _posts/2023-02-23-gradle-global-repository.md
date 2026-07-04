@@ -3,7 +3,7 @@ layout: post
 title: "Gradle全局仓库配置"
 subtitle: ""
 date: 2023-02-23
-author: "Leo"
+author: Hao
 header-img: "img/bg-material.jpg"
 permalink:  /gradle-global-repository-20230223/
 category: "programme"

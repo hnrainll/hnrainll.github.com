@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-11-21
-author: Leo
+author: Hao
 permalink: /certbot-for-letsencrypt-20241121/
 
 title: "使用 certbot 申请免费 SSL 证书"

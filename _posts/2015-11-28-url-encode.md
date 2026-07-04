@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "为什么需要对URL进行encode？"
-author: "Leo"
+author: Hao
 category: programme
 permalink:  /url-encode/
 tags: 

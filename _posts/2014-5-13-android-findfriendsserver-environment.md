@@ -1,6 +1,6 @@
 ---
 title: FindFriendsServer服务搭建
-author: Leo
+author: Hao
 layout: post
 category : programme
 permalink:  /android-findfriendsserver-environment/

@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2026-07-04
-author: Leo
+author: Hao
 permalink: /learning-and-thinking-20260704/
 title: "不做大脑的“乘客”：重新定义学习与思考的本质"
 category: "thinking"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "计算机中负数的表示法"
-author: "Leo"
+author: Hao
 category: "programme"
 permalink:  /computer-minus/
 tags: 

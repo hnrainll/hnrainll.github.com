@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2023-03-13
-author: Leo
+author: Hao
 header-img: "img/bg-material.jpg"
 permalink: /k8s-log-delete-trouble-20230313/
 

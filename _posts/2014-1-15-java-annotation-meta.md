@@ -1,6 +1,6 @@
 ---
 title: Java 注解类之常用元注解
-author: Leo
+author: Hao
 layout: post
 category : programme
 permalink:  /java-annotation-meta/
